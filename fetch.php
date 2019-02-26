@@ -52,8 +52,8 @@ while ($row=mysqli_fetch_assoc($results)){
     <td>$gender</td>
     <td>$kra_pin</td>
     <td>$salary</td>
-    <td> <a class='btn btn-danger btn-sm' href=delete.php?id=$id>Delete</a></td>
-</tr>    ";
+    <td><a class='btn btn-danger btn-sm' href=delete.php?id=$id>Delete</a></td>
+</tr>";
 }
 
 ?>

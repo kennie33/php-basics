@@ -7,7 +7,7 @@ if (isset($_POST["dob"]))
 //          echo "$names $email $address $dob  $department $genser $hra_pin";
 //          connect
 
-    $conn = mysqli_connect("localhost","root","","employees");
+    $conn = mysqli_connect("localhost","root","","shule");
     $sql ="INSERT INTO `employees`(`id`, `names`, `email`, `address`, `dob`, `department`, `gender`, `kra_pin`,`salary`) VALUES 
                                    (null,'$names','$email','$address','$dob','$department','$gender','$kra_pin','$salary')";
 
